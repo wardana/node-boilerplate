@@ -1,0 +1,33 @@
+{
+  "name": "node-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Aditya Wardana",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "babel-register": "^6.24.1",
+    "body-parser": "^1.17.2",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "crypto": "^1.0.1",
+    "debug": "~2.6.3",
+    "ejs": "^2.5.7",
+    "express": "^4.15.3",
+    "express-request-logger": "0.0.3",
+    "fs": "0.0.1-security",
+    "jwt-decode": "^2.2.0",
+    "pipa": "0.0.8",
+    "serve-favicon": "~2.4.2",
+    "settings": "^0.1.1",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1"
+  }
+}
